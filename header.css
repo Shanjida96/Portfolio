@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #1E1E1E;
+    min-height: 100vh;
+}
+/*.header{
+    height:100vh;
+    background-color:  #1E1E1E;
+}
+    */
+.flex_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar{
+    
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-right: 200px;
+    height: 66px;
+    display: flex;
+
+    
+}
+.sidenav{
+    padding: 7px 0px;
+}
+a{
+    text-decoration: none;
+    color:  #FFF8F8;
+}
+.sidenav a{
+
+   font-size: 21px;
+   justify-content: space-between;
+   width: 88px;
+   height: 66px;
+   padding: 10px 14px 10px 14px;
+   opacity: 0px;
+   font-family: "Rubik", sans-serif;
+   gap: 12px;
+   font-weight: 400;
+   
+}
+
+.logo{
+    color: #FD6F00;
+    padding-right: 100px;
+    font-family:'Poppins',sans-serif;
+   
+}
+.CV{
+    background-color: #FD6F00;
+    width: 188px;
+    height: 40px;
+    font-size:21px;
+    font-weight: 400;
+    padding: 10px 14px 10px 14px;
+    
+}
+.CV a{
+    width: 88px;
+    height: 45px;
+    
+}
+.Description{
+    padding: 254px 0px 0px 200px;
+}
+.intro{
+    text-transform: uppercase;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    gap:20px;
+   
+    
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Port_hire_me{
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    width: 376px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    background: #FFFFFF1A;
+}
+.Portfolio{
+    display: flex;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color:  #FD6F00;
+   
+}
+
+
+.Portfolio h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+} 
+.Portfolio img{
+    width: 45px;
+    height: 45px;
+    padding-left: 12.5px;
+
+
+}
+
+.Hire h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+   
+
+
+}
+
+.colored{
+    color: #FD6F00;
+
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.describe{
+    display: flex;
+    
+}
+.design
+{
+    color:#FFFFFF;
+    display: flex;
+}
+.div_flex{
+    display: flex;
+    /*padding-right:20px ;*/
+}
+.describe p{
+    padding: 20px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+img{
+   padding-right:40px;
+}

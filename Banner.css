@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.About{
+    color: #FFFFFF;
+    font-family: "Rubik" sans-serif;
+    padding: 500px 0px 60px 200px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.About h2{
+    font-size: 40px;
+    font-weight: 800;
+    width: 250px;
+    height:47px;
+    padding: 35px;
+
+}
+.desc h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.experience{
+    padding-top: 40px;
+}
+.experience p{
+    font-family: "Rubik" sans-serif;
+    padding-right: 70px;
+
+}.rating i{
+    color:orange;
+}
+.rating h3{
+    padding-top: 20px;
+}
+.ex{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.container{
+    padding-top: 100px;
+    background-image: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    color: #FFFFFF;
+    display:flex;
+    justify-content: space-between;
+}
+.My_Experience p{
+    width:458px;
+    height:288px;
+}
+
+.Project h3{
+    width:500px ;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFFFFF;
+    text-transform: uppercase;
+}
+.portfolio{
+    color: #FFFFFF;
+    width: 500px;
+    height: 100px;
+    align-content: center;
+}
+.Contact{
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.con h4{
+    margin-bottom: 50px;
+    font-family: 'Rubik';
+    font-style: italic;
+}
+.Contact h2{
+    font-weight: 500;
+    font-family: "Rubik";
+    font-size: 70px;
+    text-transform: uppercase;
+    
+}
+.project {
+    display:flex;
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Logo h2{
+    color:#FD6F00;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 200px 550px 200px 550px;
+   
+}
+.Foot {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 320px;
+    gap: 20px;
+
+}
+.Foot h3{
+    color: #FFFFFF;
+    padding: 10px 14px 10px 14px;
+    font-family: "Poppins";
+    width: 100px;
+    height: 32px;
+}
+.social_footer{
+   padding-left:600px;
+}
+.social_footer img{
+        color:#FFFFFF;
+}
+.end {
+   color:#FFFFFF;
+   background-color:#121212;
+   margin-top: auto;
+   width: 100%;
+   text-align: center;
+}
+.end h2{
+    padding: 25px 100px 25px;
+    /*justify-content: center;*/ 
+}
+.end h2 span{
+    color:#FD6F00;
+    
+}
+
+

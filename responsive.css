@@ -1,0 +1,33 @@
+@media only screen and (max-width: 480px){
+*{
+    background-color: #1E1E1E;;
+}
+    .navbar{
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column; 
+   
+ }
+ .sidenav{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ font-weight: 200px;
+}
+.Description{
+    margin-top: 200px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.describe{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+}
